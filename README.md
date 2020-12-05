@@ -1,1 +1,3 @@
-# korean-language-trainer
+This is the Korean Language Trainer. This web app is pretty simple at its core, all it does is act as a practice system for level 1 Korean which is basic items, actions and expressions. This program acts as a flash card like app but is much more than that with the extra visuals and user interactivity. There is still much more work to be done with this app like adding resources/courses, adding new levels and improving the user interface.
+
+This app primarily runs on Bootstrap and JavaScript, along with the animation library anime.js for animations. The JS file uses the fetch API to retrieve data from a JSON file that was generated using Python.

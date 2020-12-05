@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="css/style-resources.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        </head>
+        <body>
+          <div class="view" style="background-image: url('img/ryokan.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <nav class="navbar navbar-expand-lg">
+                <button class="btn btn-lg btn-primary" onclick="location.href='index.html';">Home</button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active resources">
+                      <button class="btn btn-lg btn-danger" onclick="location.href='resources.html';">Resources/Courses <span class="sr-only">(current)</span></button>
+                    </li>
+                    <li class="nav-item active about">
+                        <button class="btn btn-lg btn-light">About <span class="sr-only">(current)</span></button>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+              <main class="main">
+                <div class="container my-5">
+                  <div class="row justify-content-center my-5">
+                        <h1 style="color: white;">Resources/Courses</h1>
+                  </div>
+              </div>
+              <div class="container my-5">
+                <div class="row justify-content-center my-5">
+                    <h1 style="border-bottom: solid black 2px; color: white;">Helpful Stuff</h1>
+              </div>
+              <div class="row justify-content-center my-5">
+                   <div class="col">
+                    <div class="card text-center" id="card-1">
+                        <img class="card-img-top" src="img/korean-resource-1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h1 class="mb-3">Korean Courses</h1>
+                            <br>
+                            <br>
+                          <p class="card-text">This is a fantastic course that is relatively cheap and uses great teaching techniques to get you speaking Korean quickly</p>
+                        </div>
+                      </div>
+                   </div>
+                   <div class="col">
+                     <a data-toggle="modal" data-target="#exampleModal">
+                    <div class="card text-center" id="card-2">
+                        <img class="card-img-top" src="img/korean-resource-2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h1 class="mb-3">Korean Dramas</h1>
+                          <p class="card-text">Movies and TV are fantastic resources to learn and practice a new language, I am still kind of new to the K-Drama world, but I have seen these dramas and they are honestly really good</p>
+                        </div>
+                      </div>
+                    </a>
+                   </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                  aria-hidden="true">
+
+                  <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+
+
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Record Of Youth</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe class="mx-auto" style="width: 100%;" src="https://www.youtube.com/embed/tahWtPeNkM0">
+                        </iframe>
+                        <button type="button" class="btn btn-dark btn-block mt-2 text-danger" data-dismiss="modal" onclick="location.href='vocab.html';">Check it out on Netflix</button>
+                        <button type="button" class="btn btn-primary btn-block text-white" id="next">Next</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </main>
+              <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br><br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <script src="js/anime.min.js"></script>
+            <script src="js/resources.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        </body>
+    </html>

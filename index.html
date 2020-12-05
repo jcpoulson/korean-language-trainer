@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+        </head>
+        <body>
+          <div class="view" style="background-image: url('img/korea-bg-1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <nav class="navbar navbar-expand-lg">
+                <button class="btn btn-lg btn-primary" onclick="location.href='index.html';">Home</button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                  <ul class="navbar-nav">
+                    <li class="nav-item active resources">
+                      <button class="btn btn-lg btn-danger" onclick="location.href='resources.html';">Resources/Courses <span class="sr-only">(current)</span></button>
+                    </li>
+                    <li class="nav-item active about">
+                        <button class="btn btn-lg btn-light">About <span class="sr-only">(current)</span></button>
+                      </li>
+                  </ul>
+              </nav>
+              <main class="main">
+                <div class="container my-5">
+                  <div class="row justify-content-center my-5">
+                        <h1>Hello There, Welcome to the Korean Language Trainer</h1>
+                        <h1 class="mt-5">안녕하세요, 한국어 훈련자 예요</h1>
+                  </div>
+              </div>
+              <div class="container my-5">
+                <div class="row justify-content-center my-5">
+                    <h1 style="border-bottom: solid black 2px;">Levels</h1>
+              </div>
+              <div class="row justify-content-center my-5">
+                <button type="button" class="btn btn-primary btn-lg btn-block level-1 mt-5" onclick="location.href='app.html';">Level 1: Basic Actions, Items and Expressions</button></a>
+                <button type="button" class="btn btn-success btn-lg btn-block level-1 mt-5" data-toggle="modal" data-target="#exampleModal">Vocabulary level 1</button></a>
+                <button type="button" class="btn btn-info btn-lg btn-block level-1 mt-5" data-toggle="modal" data-target="#exampleModal2">Vocabulary level 2</button></a>
+                <button type="button" class="btn btn-warning btn-lg btn-block level-1 mt-5" data-toggle="modal" data-target="#exampleModal3">Level 3</button></a>
+                <button type="button" class="btn btn-lg btn-block mt-5" style="background-color: purple; color:white;" onclick="location.href='sentence-generator.html';">Live Sentence Generator</button>
+                </div>
+                <!-- Modal Vocab Level 1-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                  aria-hidden="true">
+
+                  <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Vocab</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <h1 class="mb-5">Level 1</h1>
+                        <button type="button" class="btn btn-danger btn-block" data-dismiss="modal" onclick="location.href='vocab.html';">English To Korean</button>
+                        <button type="button" class="btn btn-primary btn-block" onclick="location.href='vocab_ke.html';">Korean to English</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--End modal-->
+
+                <!-- Modal Level 2-->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                  aria-hidden="true">
+
+                  <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Vocab</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <h1 class="mb-5">Level 2</h1>
+                        <button type="button" class="btn btn-danger btn-block" data-dismiss="modal" onclick="location.href='vocab-lvl-2.html';">English To Korean</button>
+                        <button type="button" class="btn btn-primary btn-block" onclick="location.href='vocab-lvl-2_ke.html';">Korean to English</button>
+                        <button type="button" class="btn btn-danger btn-block" onclick="location.href='numbers.html';">Numbers - English to Korean</button>
+                        <button type="button" class="btn btn-primary btn-block" onclick="location.href='numbers_ke.html';">Numbers - Korean To English</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Modal Level 3-->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                  aria-hidden="true">
+
+                  <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Vocab</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <h1 class="mb-5">Level 3</h1>
+                        <button type="button" class="btn btn-danger btn-block" data-dismiss="modal" onclick="location.href='lvl3.html';">English To Korean</button>
+                        <button type="button" class="btn btn-primary btn-block" onclick="location.href='lvl3_ke.html';">Korean to English</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--End modal-->
+              </div>
+              </main>
+              <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br><br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <script src="js/index.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        </body>
+    </html>
